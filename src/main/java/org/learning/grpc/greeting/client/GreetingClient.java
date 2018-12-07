@@ -35,8 +35,8 @@ public class GreetingClient {
         //doServerStreamCalls(channel);
         //doClientStreamingCalls(channel);
         //doBiDirectionalStreamingCalls(channel);
-        //doUnaryCallsWithDeadlines(channel);
-        doUnaryCalls(secureChannel);
+        doUnaryCallsWithDeadlines(channel);
+        //doUnaryCalls(secureChannel);
 
         System.out.println("Shutting down channel");
         channel.shutdown();
